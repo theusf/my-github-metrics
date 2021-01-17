@@ -37,7 +37,7 @@ function App() {
               </h1>
               <p>@{userData.login}</p>
               <p>{userData.company}</p>
-              <p>{userData.location}</p>
+              <p>{userData.location}</p> 
 
               <div className="profile__button">
                 <Button
