@@ -2,7 +2,7 @@
 
 Página com status do meu perfil usando a API do Github , React JS e Meterial UI
 
-![](https://github.com/theusf/my-github-metrics/blob/main/src/assets/showcase.jpg? | width=300)
+<img src=https://github.com/theusf/my-github-metrics/blob/main/src/assets/showcase.jpg? width="300" />
 
 #### ⚙️Tecnologias utilizadas 
 - React JS
