@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.app {
+  display: grid;
+  place-items: center;
+  background-color: #110e0e;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: -20px;
+  height: 95vh;
+  width: 95vw;
+  border-radius: 40px;
+  color: #e3e3e3;
 }
 
-.App-link {
-  color: #61dafb;
+.profile__image {
+  width: 500px;
+  height: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  background-color: #191b1d;
+  border-radius: 40px;
+  box-shadow: -1px 4px 20px -6px black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+}
+
+.profile_image_and_user {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.profile__coluna1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__coluna2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__button {
+  margin-top: 20px;
 }
