@@ -1,7 +1,7 @@
 .app {
   display: grid;
   place-items: center;
-  background-color: #110e0e;
+  background-color: #6441A4;
   height: 100vh;
 }
 
@@ -16,21 +16,16 @@
   color: #e3e3e3;
 }
 
-.profile__image {
-  width: 500px;
-  height: 500px;
-}
 
 .profile__info {
   display: flex;
   flex-direction: column;
   padding: 35px;
   background-color: #191b1d;
-  border-radius: 40px;
   box-shadow: -1px 4px 20px -6px black;
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 
 }
 
@@ -39,20 +34,42 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  margin-top: -80px;
   padding-bottom: 20px;
 }
 
 .profile__coluna1 {
   display: flex;
   flex-direction: column;
+  animation-name: fadeInBottom;
+
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
 }
 
 .profile__coluna2 {
   display: flex;
   flex-direction: column;
+  animation-name: fadeInBottom;
+
+  animation-duration: 2s;
+  animation-fill-mode: both;
 }
 
 .profile__button {
   margin-top: 20px;
+}
+
+
+@keyframes fadeInBottom {
+  from {
+      opacity: 0;
+      transform: translateY(100%);
+  }
+  to { opacity: 1 }
+}
+
+.cssanimation, .cssanimation span {
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
